@@ -1,9 +1,11 @@
+baseurl = "."
 languageCode = "en-us"
 title = "Statistical Machine Learning Lab"
 theme = "blackburn"
 author = "Yoshiharu Yamashita"
 copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
+relativeurls = true
 paginate = 10
 
 [indexes]
