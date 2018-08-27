@@ -1,4 +1,3 @@
-baseurl = "."
 languageCode = "en-us"
 title = "Statistical Machine Learning Lab"
 theme = "blackburn"
