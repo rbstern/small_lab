@@ -19,7 +19,7 @@ faculty_table = yaml::read_yaml("people/faculty.yaml") %>%
                                  "' target='_blank'>",
                                  "<img border = '0' src = '",
                                  picture,
-                                 "' width = '250'></a>"),
+                                 "' width = '100'></a>"),
                 Name = paste0("<a href='",
                               url,
                               "' target='_blank'>",
