@@ -1,0 +1,6 @@
+---
+sidemenu: "true"
+title: "Contact"
+---
+
+If you would like to reach us, **please send an email** to small.ufscar at gmail
