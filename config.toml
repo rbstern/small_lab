@@ -1,4 +1,4 @@
-baseurl = "http://www.small.ufscar.br/"
+baseurl = "."
 languageCode = "en-us"
 title = "Statistical Machine Learning Lab"
 theme = "blackburn"
