@@ -3,6 +3,34 @@ sidemenu: "true"
 title: "Research"
 ---
 
+```{r echo=FALSE, message=FALSE}
+`%>%` = magrittr::`%>%`
+print_paper_table = function(topic)
+{
+  paper_table = yaml::read_yaml("research/papers.yaml") %>% 
+    do.call(rbind, .) %>% 
+    as.data.frame() %>% 
+    tidyr::unnest() %>%
+    tibble::as.tibble() %>%
+    dplyr::filter(project == topic) %>%
+    dplyr::mutate(content = paste0(
+      authors, 
+      " <a href='",
+      url,
+      "' target='_blank'>",
+      title,
+      "</a>. ",
+      journal, ". ", year, ".")) %>%
+    dplyr::select(content)
+  
+  DT::datatable(paper_table,
+                escape = FALSE,
+                options = list(dom = 't'),
+                rownames = FALSE,
+                colnames = c(""))
+}
+```
+
 # Projects
 
 ## Improved domain shift methods
@@ -13,15 +41,19 @@ title: "Research"
 
 Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We have been developing methods that are able to improve predictions in such settings.
 
-<center>
-![](./figures/example-cs.png){width=400px}
-</center>
-
 **Selected papers**:
+
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("domain-shift")
+```
 
 ## Nonparametric inference in high dimensions
 
 **Selected papers**:
+
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("nonparametric")
+```
 
 ## Interpretability and efficiency in hypothesis tests
 
@@ -31,12 +63,16 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 
 Hypothesis testing is a very common and widespread statistical tool. Unfortunately, such methodology still presents several challenges to statisticians and practitioners. For example, if A and B are two null hypothesis such that A implies B, there exist tests that, based on the same data, don’t reject A and reject B. Such outcomes are generally inconvenient to statisticians (who want to communicate the results to practitioners in a simple fashion) and non-statisticians (confused by conflicting pieces of information). Our work focuses on investigating how far one can have tests that are coherent in a logical sense, but that also have good statistical performance. We have also been developing **agnostic hypothesis tests**, in which one can accept, reject or remain agnostic with respect to a given hypothesis.
 
-<center>
-![](./figures/region-estimator.png){width=400px}
-</center>
-
 **Selected papers**:
+
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("hypothesis")
+```
 
 ## Bayesian methods
 
 **Selected papers**:
+
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("bayesian")
+```
