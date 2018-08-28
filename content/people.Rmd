@@ -38,20 +38,16 @@ print_member_table = function(path, num_cols = 3)
 }
 ```
 
-# Members
-
-## Faculty
+# Faculty
 
 ```{r echo=FALSE, message=FALSE}
 print_member_table("people/faculty.yaml")
 ```
 
-## Students
+# Students
 
 ```{r echo=FALSE, message=FALSE}
 print_member_table("people/students.yaml")
 ```
 
-# Collaborators
-
-## Alumni
+# Alumni
