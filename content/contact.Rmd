@@ -3,4 +3,7 @@ sidemenu: "true"
 title: "Contact"
 ---
 
+<center>
+![](../figures/logo.png){width=400px}
+
 If you would like to reach us, **please send an email** to small.ufscar at gmail

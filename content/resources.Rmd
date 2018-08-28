@@ -1,6 +1,0 @@
----
-sidemenu: "true"
-title: "Resources"
----
-
-## Lecture notes

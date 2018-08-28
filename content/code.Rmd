@@ -1,0 +1,6 @@
+---
+sidemenu: "true"
+title: "Code"
+---
+
+- [FlexCode](https://github.com/rizbicki/FlexCoDE) - Flexible Conditional Density Estimator. [(paper)](https://projecteuclid.org/euclid.ejs/1499133755)
