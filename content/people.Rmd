@@ -5,7 +5,7 @@ title: "People"
 
 ```{r echo=FALSE, message=FALSE}
 `%>%` = magrittr::`%>%`
-print_member_table = function(path, num_cols = 4)
+print_member_table = function(path, num_cols = 3)
 {
   member_table = yaml::read_yaml(path) %>% 
     do.call(rbind, .) %>% 
