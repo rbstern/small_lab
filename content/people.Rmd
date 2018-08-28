@@ -17,7 +17,7 @@ print_member_table = function(path, num_cols = 3)
                                    "' target='_blank'>",
                                    "<img border = '0' src = '",
                                    picture,
-                                   "' width = '150'></a><br><a href='",
+                                   "' width = '200'></a><br><a href='",
                                    url,
                                    "' target='_blank'>",
                                    name,

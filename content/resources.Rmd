@@ -4,5 +4,3 @@ title: "Resources"
 ---
 
 ## Lecture notes
-
-1111

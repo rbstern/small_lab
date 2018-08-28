@@ -14,7 +14,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  brand = "Statistical Machine Learning Lab"
+  brand = "<img border = '0' src = '../figures/logo.png' width = '140'></a>"
   googleAnalytics = ""
   disqus = ""
   # CSS name for highlight.js
@@ -24,39 +24,33 @@ paginate = 10
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "Home"
+    name = "About"
     pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
     identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
     url = "/about/"
   [[menu.main]]
     name = "People"
     pre = "<i class='fa fa-group fa-fw'></i>"
-    weight = 3
+    weight = 2
     identifier = "people"
     url = "/people/"
   [[menu.main]]
     name = "Research"
     pre = "<i class='fa fa-cogs fa-fw'></i>"
-    weight = 4
+    weight = 3
     identifier = "research"
     url = "/research/"
   [[menu.main]]
-    name = "Posts"
+    name = "Blog"
     pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 5
+    weight = 4
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 8
+    weight = 5
     url = "/contact/"
 
 [social]
