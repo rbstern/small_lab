@@ -3,39 +3,55 @@ sidemenu: "true"
 title: "People"
 ---
 
+```{r echo=FALSE, message=FALSE}
+`%>%` = magrittr::`%>%`
+print_member_table = function(path, num_cols = 4)
+{
+  member_table = yaml::read_yaml(path) %>% 
+    do.call(rbind, .) %>% 
+    as.data.frame() %>% 
+    tidyr::unnest() %>%
+    tibble::as.tibble() %>%
+    dplyr::mutate(content = paste0("<center><a href='",
+                                   url,
+                                   "' target='_blank'>",
+                                   "<img border = '0' src = '",
+                                   picture,
+                                   "' width = '150'></a><br><a href='",
+                                   url,
+                                   "' target='_blank'>",
+                                   name,
+                                   "</a></center>")) %>%
+    dplyr::select(content) %>%
+    unlist()
+  nn = length(member_table)
+  member_table %<>% 
+    c(rep("", (num_cols-(nn %% num_cols)) %% num_cols)) %>%
+    matrix(ncol = num_cols, byrow = TRUE) %>%
+    as.data.frame()
+  
+  DT::datatable(member_table,
+                escape = FALSE,
+                options = list(dom = 't'),
+                rownames = FALSE,
+                colnames = c("",""))
+}
+```
+
 # Members
 
 ## Faculty
 
 ```{r echo=FALSE, message=FALSE}
-`%>%` = magrittr::`%>%`
-faculty_table = yaml::read_yaml("people/faculty.yaml") %>% 
-  do.call(rbind, .) %>% 
-  as.data.frame() %>% 
-  tidyr::unnest() %>%
-  tibble::as.tibble() %>%
-  dplyr::mutate(Picture = paste0("<a href='",
-                                 url,
-                                 "' target='_blank'>",
-                                 "<img border = '0' src = '",
-                                 picture,
-                                 "' width = '100'></a>"),
-                Name = paste0("<a href='",
-                              url,
-                              "' target='_blank'>",
-                              name,
-                              "</a>")) %>%
-  dplyr::select(Picture, Name)
-DT::datatable(faculty_table,
-              escape = FALSE,
-              options = list(dom = 't'),
-              rownames = FALSE)
+print_member_table("people/faculty.yaml")
 ```
 
 ## Students
 
+```{r echo=FALSE, message=FALSE}
+print_member_table("people/students.yaml")
+```
+
 # Collaborators
 
 ## Alumni
-
-11
