@@ -7,11 +7,15 @@ title: "Research"
 
 ## Improved domain shift methods
 
-![](./figures/shift-real.png)
+<center>
+![](./figures/shift-real.png){width=400px}
+</center>
 
 Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We have been developing methods that are able to improve predictions in such settings.
 
-![](./figures/example-cs.png)
+<center>
+![](./figures/example-cs.png){width=400px}
+</center>
 
 **Selected papers**:
 
@@ -21,12 +25,15 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 
 ## Interpretability and efficiency in hypothesis tests
 
-![](./figures/agnostic.png)
+<center>
+![](./figures/agnostic.png){width=400px}
+</center>
 
 Hypothesis testing is a very common and widespread statistical tool. Unfortunately, such methodology still presents several challenges to statisticians and practitioners. For example, if A and B are two null hypothesis such that A implies B, there exist tests that, based on the same data, don’t reject A and reject B. Such outcomes are generally inconvenient to statisticians (who want to communicate the results to practitioners in a simple fashion) and non-statisticians (confused by conflicting pieces of information). Our work focuses on investigating how far one can have tests that are coherent in a logical sense, but that also have good statistical performance. We have also been developing **agnostic hypothesis tests**, in which one can accept, reject or remain agnostic with respect to a given hypothesis.
 
-![](./figures/region-estimator.png)
-
+<center>
+![](./figures/region-estimator.png){width=400px}
+</center>
 
 **Selected papers**:
 
