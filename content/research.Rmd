@@ -33,16 +33,15 @@ print_paper_table = function(topic)
 }
 ```
 
-# Projects
+Our research covers several topics.
 
-
-## Improved domain shift methods
+# Improved domain shift methods
 
 <center>
 ![](./figures/shift-real.png){width=400px}
 </center>
 
-Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We have been developing methods that are able to improve predictions in such settings.
+Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We develop methods that are able to improve predictions in such settings.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -50,7 +49,15 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 ```
 </div>
   
-## Nonparametric inference in high dimensions
+# Nonparametric inference in high dimensions
+
+Because of the large volume of
+data available today in several applications, nonparametric methods have been gaining a lot
+of attention as they allow one to make less assumption about the data generating process.
+We are interested in developing nonparametric
+methods that can be used for settings where the number of covariates is also large.
+This poses several interesting computational and statistical problems
+that we address in our research.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -58,7 +65,7 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 ```
 </div>
 
-## Interpretability and efficiency in hypothesis tests
+# Interpretability and efficiency in hypothesis tests
 
 <center>
 ![](./figures/agnostic.png){width=400px}
@@ -72,9 +79,13 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
 ```
 </div>
 
-## Bayesian methods
+# Bayesian methods
 
-**Selected papers**:
+Bayesian methods are known
+to provide improved solutions for several
+predictions problems because they offer meningful regularization
+based on prior information. We have been applying Bayesian methods
+to solve many statistical and machine learning problems.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -82,7 +93,10 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
 ```
 </div>
 
-## Foundations of statistics
+# Foundations of statistics
+
+Understanding the foundations of statistics
+is key to develop meaningful applications.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -91,8 +105,8 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
 </div>
 
 
-Check our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page
-for more papers.
+*Check our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page
+for more papers.*
 
 
 <script>
