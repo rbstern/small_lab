@@ -213,3 +213,27 @@
  journal: "Statistical Analysis and Data Mining, 6(6):565-577"
  url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/sam.11206"
  year: "2013"
+
+-
+ authors: "Cisewski, J.; Kadane, J. B.; Schervish, M. J., Seidenfeld, T.; Stern, R. B."
+ title: "Standards for Modest Bayesian Credences"
+ project: "foundations"
+ journal: "Philosophy of Science 85 (1), 53-78"
+ url: "https://www.journals.uchicago.edu/doi/10.1086/694836"
+ year: "2018"
+
+-
+ authors: "Cisewski, J.; Kadane, J. B.; Schervish, M. J., Seidenfeld, T.; Stern, R. B."
+ title: "Sleeping Beauty’s Credences"
+ project: "foundations"
+ journal: "Philosophy of Science 83 (3), 324-347"
+ url: "https://www.journals.uchicago.edu/doi/abs/10.1086/685741"
+ year: "2016"
+
+-
+ authors: "Stern, R. B.; Kadane, J. B."
+ title: "Coherence of countably many bets"
+ project: "foundations"
+ journal: "Journal of Theoretical Probability 28 (2), 520–538"
+ url: "https://link.springer.com/article/10.1007/s10959-013-0489-9"
+ year: "2015"

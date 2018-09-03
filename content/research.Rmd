@@ -15,6 +15,7 @@ print_paper_table = function(topic)
     tidyr::unnest() %>%
     tibble::as.tibble() %>%
     dplyr::filter(project == topic) %>%
+    dplyr::arrange(desc(year)) %>%
     dplyr::mutate(content = paste0(
       authors, 
       " <a href='",
@@ -77,4 +78,10 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
 
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("bayesian")
+```
+
+## Foundations of statistics
+
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("foundations")
 ```
