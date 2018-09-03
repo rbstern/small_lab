@@ -35,6 +35,9 @@ print_paper_table = function(topic)
 
 Our research covers several topics,
 some of which are highlighted below.
+<br>
+
+***
 
 # Improved domain shift methods
 
@@ -52,6 +55,11 @@ We develop methods that are able to improve predictions in such settings.
  print_paper_table("domain-shift")
 ```
 </div>
+
+<br>
+
+***
+  
   
 # Nonparametric inference in high dimensions
 
@@ -74,6 +82,10 @@ we address in our research.
 ```
 </div>
 
+<br>
+
+***
+
 # Interpretability and efficiency in hypothesis tests
 
 <center>
@@ -87,6 +99,10 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
  print_paper_table("hypothesis")
 ```
 </div>
+
+<br>
+
+***
 
 # Bayesian methods
 
@@ -106,6 +122,10 @@ to solve many statistical and machine learning problems.
 ```
 </div>
 
+<br>
+
+***
+
 # Foundations of statistics
 
 Understanding the foundations of statistics
@@ -116,6 +136,10 @@ is key to developing meaningful applications.
  print_paper_table("foundations")
 ```
 </div>
+
+<br>
+
+***
 
 
 *Check our 
