@@ -3,7 +3,6 @@ sidemenu: "true"
 title: "Research"
 ---
 
-Our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page.
 
 ```{r echo=FALSE, message=FALSE}
 `%>%` = magrittr::`%>%`
@@ -35,6 +34,7 @@ print_paper_table = function(topic)
 ```
 
 # Projects
+
 
 ## Improved domain shift methods
 
@@ -89,6 +89,11 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
  print_paper_table("foundations")
 ```
 </div>
+
+
+Check our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page
+for more papers.
+
 
 <script>
   $(".toggle").click(function() {
