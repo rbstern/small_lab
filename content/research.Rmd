@@ -1,9 +1,13 @@
 ---
 sidemenu: "true"
 title: "Research"
+output:
+  html_document:
+    theme: null
+    css: research.css
 ---
 
-- [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ)
+Our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page.
 
 ```{r echo=FALSE, message=FALSE}
 `%>%` = magrittr::`%>%`
@@ -44,19 +48,19 @@ print_paper_table = function(topic)
 
 Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We have been developing methods that are able to improve predictions in such settings.
 
-**Selected papers**:
-
+<div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("domain-shift")
 ```
-
+</div>
+  
 ## Nonparametric inference in high dimensions
 
-**Selected papers**:
-
+<div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("nonparametric")
 ```
+</div>
 
 ## Interpretability and efficiency in hypothesis tests
 
@@ -66,22 +70,32 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 
 Hypothesis testing is a very common and widespread statistical tool. Unfortunately, such methodology still presents several challenges to statisticians and practitioners. For example, if A and B are two null hypothesis such that A implies B, there exist tests that, based on the same data, don’t reject A and reject B. Such outcomes are generally inconvenient to statisticians (who want to communicate the results to practitioners in a simple fashion) and non-statisticians (confused by conflicting pieces of information). Our work focuses on investigating how far one can have tests that are coherent in a logical sense, but that also have good statistical performance. We have also been developing **agnostic hypothesis tests**, in which one can accept, reject or remain agnostic with respect to a given hypothesis.
 
-**Selected papers**:
-
+<div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("hypothesis")
 ```
+</div>
 
 ## Bayesian methods
 
 **Selected papers**:
 
+<div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("bayesian")
 ```
+</div>
 
 ## Foundations of statistics
 
+<div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
  print_paper_table("foundations")
 ```
+</div>
+
+<script>
+  $(".toggle").click(function() {
+    $(this).toggleClass("open");
+  });
+</script>
