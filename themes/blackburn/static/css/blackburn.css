@@ -75,3 +75,11 @@ i {
 .pagination a {
   color: #265778;
 }
+
+.toggle {
+  height: 2.0em;
+  overflow-y: hidden;
+}
+.toggle.open {
+  height: auto;
+}
