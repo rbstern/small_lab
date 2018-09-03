@@ -33,16 +33,19 @@ print_paper_table = function(topic)
 }
 ```
 
-Our research covers several topics.
- Some of the main topics are highlighted below.
- 
+Our research covers several topics,
+some of which are highlighted below.
+
 # Improved domain shift methods
 
 <center>
 ![](./figures/shift-real.png){width=400px}
 </center>
 
-Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We develop methods that are able to improve predictions in such settings.
+Most prediction methods assume that the sample that is used to train the model
+has the same distribution as the sample one wishes to predict.
+However, such an assumption is often unreasonable. 
+We develop methods that are able to improve predictions in such settings.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -57,13 +60,13 @@ Most prediction methods assume that the target sample (i.e., the sample we want 
 ![](./figures/tweet.png){width=400px}
 </center>
 
-Because of the large volume of
-data available today in several applications, nonparametric methods have been gaining a lot
-of attention as they allow one to make less assumption about the data generating process.
-We are interested in developing nonparametric
-methods that can be used for settings where the number of covariates is also large.
-This poses several interesting computational and statistical problems
-that we address in our research.
+Because of the large volume of data available today,
+in several applications nonparametric methods have been gaining attention,
+since they allow one to make less assumptions about the data generating process.
+We are interested in developing nonparametric methods that 
+can be used for settings where the number of covariates is also large.
+This poses several interesting computational and statistical problems that 
+we address in our research.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -91,9 +94,9 @@ Hypothesis testing is a very common and widespread statistical tool. Unfortunate
 ![](./figures/simplex.png){width=400px}
 </center>
 
-Bayesian methods are known
-to provide improved solutions for several
-predictions problems because they offer meningful regularization
+Bayesian methods are known to 
+provide improved solutions for several
+prediction problems because they offer meningful regularization
 based on prior information. We have been applying Bayesian methods
 to solve many statistical and machine learning problems.
 
@@ -106,7 +109,7 @@ to solve many statistical and machine learning problems.
 # Foundations of statistics
 
 Understanding the foundations of statistics
-is key to develop meaningful applications.
+is key to developing meaningful applications.
 
 <div class="toggle"><button>Selected papers</button>
 ```{r echo=FALSE, message=FALSE}
@@ -115,9 +118,9 @@ is key to develop meaningful applications.
 </div>
 
 
-*Check our [Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page
+*Check our 
+[Google scholar](https://scholar.google.com.br/citations?hl=pt-BR&user=MGrbI2UAAAAJ) page
 for more papers.*
-
 
 <script>
   $(".toggle").click(function() {
