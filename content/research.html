@@ -1,6 +1,10 @@
 ---
 sidemenu: "true"
 title: "Research"
+output:
+  html_document:
+    theme: null
+    css: research.css
 ---
 
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
@@ -14,9 +18,7 @@ title: "Research"
 <script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
 
 
-<ul>
-<li><a href="https://scholar.google.com.br/citations?hl=pt-BR&amp;user=MGrbI2UAAAAJ">Google scholar</a></li>
-</ul>
+<p>Our <a href="https://scholar.google.com.br/citations?hl=pt-BR&amp;user=MGrbI2UAAAAJ">Google scholar</a> page.</p>
 <div id="projects" class="section level1">
 <h1>Projects</h1>
 <div id="improved-domain-shift-methods" class="section level2">
@@ -25,15 +27,23 @@ title: "Research"
 <img src="./figures/shift-real.png" width="400" />
 </center>
 <p>Most prediction methods assume that the target sample (i.e., the sample we want to make predictions) follows the same distribution as the training sample. However, this is often not true. We have been developing methods that are able to improve predictions in such settings.</p>
-<p><strong>Selected papers</strong>:</p>
+<div class="toggle">
+<button>
+Selected papers
+</button>
 <div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["Vaz, A. F., Izbicki, R. Stern, R.B. <a href='https://arxiv.org/abs/1807.03929' target='_blank'>Quantification under prior probability shift: the ratio estimator and its extensions<\/a>. Work in progress. 2018+.","Izbicki, R.; Lee, A.B.; Freeman, P.E. <a href='https://projecteuclid.org/euclid.aoas/1500537720' target='_blank'>Photo-z estimation: An example of nonparametric conditional density estimation under selection bias<\/a>. The Annals of Applied Statistics. 2017.","Freeman, P.E.; Izbicki, R.; Lee, A.B. <a href='https://academic.oup.com/mnras/article-abstract/468/4/4556/3092378' target='_blank'>A unified framework for constructing, tuning and assessing photometric redshift density estimates in a selection bias setting<\/a>. Monthly Notices of the Royal Astronomical Society. 2017.","Ianishi, P.; Izbicki; R. <a href='' target='_blank'>Classificação morfológica de galáxias em conjuntos de dados desbalanceados<\/a>. TEMA – Tendências em Matemática Aplicada e Computacional. 2017.","Izbicki, R.; Lee, A. B.; Schafer, C. M. <a href='http://proceedings.mlr.press/v33/izbicki14.pdf' target='_blank'>High-Dimensional density ratio estimation with extensions to approximate likelihood computation<\/a>. Journal of Machine Learning Research (AISTATS Track), 33:420-429, . 2014."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th><\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
+</div>
 <div id="nonparametric-inference-in-high-dimensions" class="section level2">
 <h2>Nonparametric inference in high dimensions</h2>
-<p><strong>Selected papers</strong>:</p>
+<div class="toggle">
+<button>
+Selected papers
+</button>
 <div id="htmlwidget-2" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-2">{"x":{"filter":"none","data":[["Izbicki, R.; Lee, A. B. <a href='https://arxiv.org/abs/1704.08095' target='_blank'>Converting High-Dimensional Regression to High-Dimensional Conditional Density Estimation<\/a>. Eletronic Journal of Statistics. 2017.","Izbicki, R.; Lee, A.B.; Freeman, P.E.  <a href='https://projecteuclid.org/euclid.aoas/1500537720' target='_blank'>Photo-z estimation: An example of nonparametric conditional density estimation under selection bias<\/a>. The Annals of Applied Statistics. 2017.","Freeman, P.E.; Izbicki, R.; Lee, A.B. <a href='https://academic.oup.com/mnras/article-abstract/468/4/4556/3092378' target='_blank'>A unified framework for constructing, tuning and assessing photometric redshift density estimates in a selection bias setting<\/a>. Monthly Notices of the Royal Astronomical Society. 2017.","Izbicki, R.; Lee, A. B. <a href='https://www.tandfonline.com/doi/abs/10.1080/10618600.2015.1094393' target='_blank'>Nonparametric Conditional Density Estimation in a High-Dimensional Regression Setting<\/a>. Journal of Computational and Graphical Statistics, 25(4) 1297-1316. 2016.","Lee, A. B.; Izbicki, R.  <a href='https://projecteuclid.org/euclid.ejs/1456322681' target='_blank'>A Spectral Series Approach to High-Dimensional Nonparametric Regression<\/a>. Eletronic Journal of Statistics, 10(1):423-463. 2016.","Izbicki, R.; Lee, A. B.; Schafer, C. M. <a href='http://proceedings.mlr.press/v33/izbicki14.pdf' target='_blank'>High-Dimensional density ratio estimation with extensions to approximate likelihood computation<\/a>. Journal of Machine Learning Research (AISTATS Track), 33:420-429. 2014."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th><\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 <div id="interpretability-and-efficiency-in-hypothesis-tests" class="section level2">
 <h2>Interpretability and efficiency in hypothesis tests</h2>
@@ -41,19 +51,38 @@ title: "Research"
 <img src="./figures/agnostic.png" width="400" />
 </center>
 <p>Hypothesis testing is a very common and widespread statistical tool. Unfortunately, such methodology still presents several challenges to statisticians and practitioners. For example, if A and B are two null hypothesis such that A implies B, there exist tests that, based on the same data, don’t reject A and reject B. Such outcomes are generally inconvenient to statisticians (who want to communicate the results to practitioners in a simple fashion) and non-statisticians (confused by conflicting pieces of information). Our work focuses on investigating how far one can have tests that are coherent in a logical sense, but that also have good statistical performance. We have also been developing <strong>agnostic hypothesis tests</strong>, in which one can accept, reject or remain agnostic with respect to a given hypothesis.</p>
-<p><strong>Selected papers</strong>:</p>
+<div class="toggle">
+<button>
+Selected papers
+</button>
 <div id="htmlwidget-3" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-3">{"x":{"filter":"none","data":[["Coscrato, V., Izbicki, R. Stern, R.B. <a href='https://arxiv.org/abs/1805.04620' target='_blank'>Agnostic tests can control the type I and type II errors simultaneously<\/a>. Work in progress. 2018+.","Ceregatti, R. de C., Izbicki, R. Salasar, L.E.B. <a href='' target='_blank'>WIKS: A general Bayesian nonparametric index for quantifying differences between two populations<\/a>. Work in progress. 2018+.","Stern, J. M.; Izbicki, R.; Esteves, L. G.; Stern, R. B. <a href='https://academic.oup.com/jigpal/article/25/5/741/3979884' target='_blank'>Logically-consistent hypothesis testing and the hexagon of oppositions<\/a>. Logic Journal of the IGPL. 2017.","Fossaluza, V.; Izbicki, R.; da Silva, G.M.; Esteves, L.G. <a href='https://www.tandfonline.com/doi/abs/10.1080/00031305.2016.1237893' target='_blank'>Coherent hypothesis testing<\/a>. The American Statistician. 2017.","Esteves, L. G.; Izbicki, R.; Stern, J. M.; Stern, R. B. <a href='http://www.mdpi.com/1099-4300/18/7/256' target='_blank'>The logical consistency of simultaneous agnostic hypothesis tests<\/a>. Entropy. 2016.","da Silva, G.M.; Esteves, L.G.; Fossaluza, V.; Izbicki, R.; Wechsler, S. <a href='http://www.mdpi.com/1099-4300/17/10/6534' target='_blank'>A Bayesian Decision-Theoretic Approach to Logically-Consistent Hypothesis Testing<\/a>. Entropy, 17: 6534-6559. 2015.","Izbicki, R.; Esteves, L. G. <a href='https://academic.oup.com/jigpal/article/23/5/732/976595' target='_blank'>Logical consistency in simultaneous statistical test procedures<\/a>. Logic Journal of the IGPL, 23(5):732-758. 2015."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th><\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 <div id="bayesian-methods" class="section level2">
 <h2>Bayesian methods</h2>
 <p><strong>Selected papers</strong>:</p>
+<div class="toggle">
+<button>
+Selected papers
+</button>
 <div id="htmlwidget-4" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-4">{"x":{"filter":"none","data":[["Inacio, M. H. de A.; Izbicki, R.; Salasar, L. E. B.  <a href='' target='_blank'>Comparing two populations using Bayesian Fourier series density estimation<\/a>. Communications in Statistics – Simulation and Computation. 2018+.","Diniz, M. A.; Izbicki, R.; Lopes, D. L.; Salasar, L. E. B. <a href='https://www.tandfonline.com/doi/abs/10.1080/01605682.2018.1457485' target='_blank'>Comparing probabilistic predictive models applied to football<\/a>. Journal of the Operational Research Society. 2018+.","Ceregatti, R. de C., Izbicki, R. Salasar, L.E.B. <a href='https://arxiv.org/abs/1806.08307' target='_blank'>WIKS: A general Bayesian nonparametric index for quantifying differences between two populations<\/a>. Work in progress. 2018+.","Esteves, L.G.; Izbicki, R.; Stern, R.B. <a href='https://www.tandfonline.com/doi/abs/10.1080/00031305.2016.1264316?journalCode=utas20' target='_blank'>Teaching decision theory proof strategies using a crowdsourcing problem<\/a>. The American Statistician, 71(4). 2017.","Zuanetti, D. A.; Milan, L.A. <a href='https://projecteuclid.org/euclid.bjps/1503388833' target='_blank'>Second-order Autoregressive Hidden Markov Model<\/a>. Brazilian Journal of Probability and Statistics. 2017.","Zuanetti, D. A.; Milan, L. A. <a href='https://www.ncbi.nlm.nih.gov/pubmed/28321898' target='_blank'>A generalized mixture model applied to diabetes incidence data<\/a>. Biometrical Journal. 2017.","Zuanetti, D.A.; Milan, L.A. <a href='http://www.genetics.org/content/202/1/25' target='_blank'>Data-driven reversible jump for qtl mapping<\/a>. Genetics, 202(1):25-36. 2016.","Stern, R. B. <a href='' target='_blank'>A statistical contribution to historical linguistics<\/a>. PhD thesis, Carnegie Mellon University. 2015.","Izbicki, R.; Stern, R.B. <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/sam.11206' target='_blank'>Learning with many experts: sparsity and model selection<\/a>. Statistical Analysis and Data Mining, 6(6):565-577. 2013."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th><\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
+</div>
 <div id="foundations-of-statistics" class="section level2">
 <h2>Foundations of statistics</h2>
+<div class="toggle">
+<button>
+Selected papers
+</button>
 <div id="htmlwidget-5" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-5">{"x":{"filter":"none","data":[["Cisewski, J.; Kadane, J. B.; Schervish, M. J., Seidenfeld, T.; Stern, R. B. <a href='https://www.journals.uchicago.edu/doi/10.1086/694836' target='_blank'>Standards for Modest Bayesian Credences<\/a>. Philosophy of Science 85 (1), 53-78. 2018.","Cisewski, J.; Kadane, J. B.; Schervish, M. J., Seidenfeld, T.; Stern, R. B. <a href='https://www.journals.uchicago.edu/doi/abs/10.1086/685741' target='_blank'>Sleeping Beauty’s Credences<\/a>. Philosophy of Science 83 (3), 324-347. 2016.","Stern, R. B.; Kadane, J. B. <a href='https://link.springer.com/article/10.1007/s10959-013-0489-9' target='_blank'>Coherence of countably many bets<\/a>. Journal of Theoretical Probability 28 (2), 520–538. 2015."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th><\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+<script>
+  $(".toggle").click(function() {
+    $(this).toggleClass("open");
+  });
+</script>
 </div>
 </div>
