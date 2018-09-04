@@ -48,6 +48,13 @@
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8846498A4"
 
 -
+  name: "Julio A. Z. Trecenti"
+  affiliation: "MAE-IME-USP"
+  affiliation_link: "https://www.ime.usp.br/mae"
+  picture: "./pictures/trecenti.jpg"
+  url: "https://www.curso-r.com/blog/"
+
+-
   name: "Afonso F. Vaz"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
