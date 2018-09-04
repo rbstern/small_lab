@@ -1,19 +1,34 @@
 -
   name: "Rafael Izbicki"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/izbicki.jpg"
   url: "http://www.rizbicki.ufscar.br/"
-  
+
+-
+  name: "Tiago M. Santos"
+  affiliation: "Insper"
+  affiliation_link: "https://www.insper.edu.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4464645E6"
+
 -
   name: "Luis Ernesto B. Salasar"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/salasar.jpg"
   url: "https://scholar.google.com.br/citations?user=JPOiXGkAAAAJ&hl=en"
   
 -
   name: "Rafael B. Stern"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/stern.jpg"
   url: "https://www.rafaelstern.science/"
 
 -
   name: "Daiane Zuanetti"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/zuanetti.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4736357U5"

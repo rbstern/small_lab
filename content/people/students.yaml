@@ -1,19 +1,62 @@
 -
   name: "Rafael Ceregatti"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/ceregatti.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4826913U9"
 
 -
   name: "Victor Coscrato"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/coscrato.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"
 
 -
+  name: "João C. P. Ferreira"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4449302H5"
+
+-
   name: "Marco Inacio"
-  picture: "./pictures/inacio.jpg"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
   url: "http://marcoinacio.com/"
 
 -
+  name: "Marcela Musetti"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8081707H4"
+
+-
+  name: "Victor C. Reis"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4471616P8"
+
+-
+  name: "Deborah B. Stern"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8846498A4"
+
+-
   name: "Afonso F. Vaz"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/vaz.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"
+
+-
+  name: "Tatyana S. Zabanova"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450331A6"

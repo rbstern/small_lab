@@ -5,6 +5,12 @@ title: "People"
 
 ```{r echo=FALSE, message=FALSE}
 `%>%` = magrittr::`%>%`
+
+add_html_link = function(url, content, target = "'_blank'")
+{
+  paste0("<a href='", url, "' target=", target, ">", content, "</a>")
+}
+
 print_member_table = function(path, num_cols = 3)
 {
   member_table = yaml::read_yaml(path) %>% 
@@ -12,16 +18,14 @@ print_member_table = function(path, num_cols = 3)
     as.data.frame() %>% 
     tidyr::unnest() %>%
     tibble::as.tibble() %>%
-    dplyr::mutate(content = paste0("<center><a href='",
-                                   url,
-                                   "' target='_blank'>",
+    dplyr::mutate(content = paste0("<center>",
                                    "<img border = '0' src = '",
                                    picture,
-                                   "' width = '200'></a><br><a href='",
-                                   url,
-                                   "' target='_blank'>",
-                                   name,
-                                   "</a></center>")) %>%
+                                   "' width = '200'><br>",
+                                   add_html_link(url, name),
+                                   "<br>",
+                                   add_html_link(affiliation_link, affiliation),
+                                   "</center>")) %>%
     dplyr::select(content) %>%
     unlist()
   nn = length(member_table)
