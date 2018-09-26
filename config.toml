@@ -15,7 +15,7 @@ paginate = 10
 [params]
   # Shown in the home page
   brand = "<img border = '0' src = '../figures/logo.png' width = '140'></a>"
-  googleAnalytics = ""
+  googleAnalytics = "UA-126535581-1"
   disqus = ""
   # CSS name for highlight.js
   highlightjs = "androidstudio"
