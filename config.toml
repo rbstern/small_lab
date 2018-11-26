@@ -48,9 +48,15 @@ paginate = 10
     identifier = "code"
     url = "/code/"
   [[menu.main]]
+    name = "Events"
+    pre = "<i class='fa fa-map-signs fa-fw'></i>"
+    weight = 5
+    identifier = "events"
+    url = "/events/"
+  [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 5
+    weight = 6
     url = "/contact/"
 
 [social]
