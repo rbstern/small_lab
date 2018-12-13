@@ -61,3 +61,7 @@ print_member_table("people/students.yaml")
 ```
 
 # Alumni
+
+```{r echo=FALSE, message=FALSE}
+print_member_table("people/alumni.yaml")
+```

@@ -1,4 +1,36 @@
 -
+ authors: "Stern, J. M., Izbicki, R., Esteves, L. G., Stern, R. B."
+ title: "Logically-consistent hypothesis testing and the hexagon of oppositions"
+ project: "foundations"
+ journal: "Logic Journal of the IGPL"
+ url: "https://academic.oup.com/jigpal/article/25/5/741/3979884?guestAccessKey=245aaadd-2de5-4e30-9b71-c619153312fe"
+ year: "2017"
+
+-
+ authors: "Fossaluza, V.; Izbicki, R.; da Silva, G.M.; Esteves, L.G."
+ title: "Coherent hypothesis testing"
+ project: "foundations"
+ journal: "The American Statistician"
+ url: "https://www.tandfonline.com/doi/abs/10.1080/00031305.2016.1237893"
+ year: "2017"
+
+-
+ authors: "Izbicki, R.; Lee, A. B.; Pospisil, T."
+ title: "ABC-CDE: Towards Approximate Bayesian Computation with Complex High-Dimensional Data and Limited Simulations"
+ project: "nonparametric"
+ journal: "Journal of Computational and Graphical Statistics"
+ url: "https://www.tandfonline.com/doi/abs/10.1080/10618600.2018.1546594?journalCode=ucgs20"
+ year: "2019+"
+
+-
+ authors: "Izbicki, R.; Lee, A. B.; Pospisil, T."
+ title: "ABC-CDE: Towards Approximate Bayesian Computation with Complex High-Dimensional Data and Limited Simulations"
+ project: "bayesian"
+ journal: "Journal of Computational and Graphical Statistics"
+ url: "https://www.tandfonline.com/doi/abs/10.1080/10618600.2018.1546594?journalCode=ucgs20"
+ year: "2019+"
+
+-
  authors: "Vaz, A. F., Izbicki, R. Stern, R.B."
  title: "Quantification under prior probability shift: the ratio estimator and its extensions"
  project: "domain-shift"
@@ -147,7 +179,7 @@
  title: "Comparing two populations using Bayesian Fourier series density estimation"
  project: "bayesian"
  journal: "Communications in Statistics – Simulation and Computation"
- url: ""
+ url: "https://www.tandfonline.com/doi/abs/10.1080/03610918.2018.1484480?journalCode=lssp20"
  year: "2018+"
 
 -
@@ -164,7 +196,7 @@
  project: "bayesian"
  journal: "Work in progress"
  url: "https://arxiv.org/abs/1806.08307"
- year: "2018+"
+ year: "2019+"
 
 -
  authors: "Esteves, L.G.; Izbicki, R.; Stern, R.B."
