@@ -8,10 +8,7 @@ title: "Research"
 `%>%` = magrittr::`%>%`
 print_paper_table = function(topic)
 {
-  paper_table = yaml::read_yaml("research/papers.yaml") %>% 
-    do.call(rbind, .) %>% 
-    as.data.frame() %>% 
-    tidyr::unnest() %>%
+  paper_table = read.csv("research/papers.csv") %>% 
     tibble::as.tibble() %>%
     dplyr::filter(project == topic) %>%
     dplyr::arrange(desc(year)) %>%
