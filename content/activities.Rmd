@@ -10,15 +10,15 @@ print_activity_table = function(topic)
   paper_table = read.csv("activities/activities.csv") %>% 
     tibble::as.tibble() %>%
     dplyr::filter(project == topic) %>%
-    dplyr::arrange(desc(year)) %>%
+    dplyr::arrange(desc(date)) %>%
     dplyr::mutate(content = paste0(
-      authors, 
+      author, 
       " <a href='",
       url,
       "' target='_blank'>",
       title,
       "</a>. ",
-      journal, ". ", year, ".")) %>%
+      date, ".")) %>%
     dplyr::select(content)
   
   DT::datatable(paper_table,
@@ -56,7 +56,7 @@ recent advances in Machine Learning and Statistics.
 
 A space for students to discuss their current research.
 
-<div class="toggle"><button>Selected papers</button>
+<div class="toggle"><button>Recent events</button>
 ```{r echo=FALSE, message=FALSE}
  print_activity_table("seminar")
 ```
