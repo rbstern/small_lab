@@ -1,0 +1,63 @@
+---
+sidemenu: "true"
+title: "Activities"
+---
+
+```{r echo=FALSE, message=FALSE}
+`%>%` = magrittr::`%>%`
+print_activity_table = function(topic)
+{
+  paper_table = read.csv("activities/activities.csv") %>% 
+    tibble::as.tibble() %>%
+    dplyr::filter(project == topic) %>%
+    dplyr::arrange(desc(year)) %>%
+    dplyr::mutate(content = paste0(
+      authors, 
+      " <a href='",
+      url,
+      "' target='_blank'>",
+      title,
+      "</a>. ",
+      journal, ". ", year, ".")) %>%
+    dplyr::select(content)
+  
+  DT::datatable(paper_table,
+                escape = FALSE,
+                options = list(dom = 't'),
+                rownames = FALSE,
+                colnames = c(""))
+}
+```
+
+# GEL - Reading group
+
+<center>
+![](./figures/blank.png){width=10px}
+</center>
+
+Keeping ourserlves up-to-date with
+recent advances in Machine Learning and Statistics.
+
+<div class="toggle"><button>Recent events</button>
+```{r echo=FALSE, message=FALSE}
+ print_activity_table("gel")
+```
+</div>
+
+<br>
+
+***
+  
+# SMaLL seminars
+
+<center>
+![](./figures/blank.png){width=10px}
+</center>
+
+A space for students to discuss their current research.
+
+<div class="toggle"><button>Selected papers</button>
+```{r echo=FALSE, message=FALSE}
+ print_activity_table("seminar")
+```
+</div>

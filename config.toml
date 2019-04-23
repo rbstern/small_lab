@@ -36,31 +36,37 @@ paginate = 10
     identifier = "research"
     url = "/research/"
   [[menu.main]]
-    name = "Blog"
+    name = "Activities"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 3
+    identifier = "activities"
+    url = "/activities/"
+  [[menu.main]]
+    name = "Blog"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 4
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Code"
     pre = "<i class='fa fa-file fa-fw'></i>"
-    weight = 4
+    weight = 5
     identifier = "code"
     url = "/code/"
   [[menu.main]]
     name = "Events"
     pre = "<i class='fa fa-map-signs fa-fw'></i>"
-    weight = 5
+    weight = 6
     identifier = "events"
     url = "/events/"
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 6
+    weight = 7
     url = "/contact/"
 
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   github = ""
-  googlescholar = ""
+  googlescholar = "MGrbI2UAAAAJ"
