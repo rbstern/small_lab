@@ -54,7 +54,7 @@ recent advances in Machine Learning and Statistics.
 ![](./figures/blank.png){width=10px}
 </center>
 
-A space for students to discuss their current research.
+A space for students and faculty to discuss their current research.
 
 <div class="toggle"><button>Recent events</button>
 ```{r echo=FALSE, message=FALSE}
