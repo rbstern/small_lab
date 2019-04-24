@@ -9,7 +9,7 @@ title: "Research"
 print_paper_table = function(topic)
 {
   paper_table = read.csv("research/papers.csv") %>% 
-    tibble::as.tibble() %>%
+    tibble::as_tibble() %>%
     dplyr::filter(project == topic) %>%
     dplyr::arrange(desc(year)) %>%
     dplyr::mutate(content = paste0(

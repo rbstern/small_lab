@@ -27,6 +27,14 @@
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4471616P8"
 
 -
+  name: "Gilson Yuuji Shimizu"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705980E5"
+
+
+-
   name: "Deborah B. Stern"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
