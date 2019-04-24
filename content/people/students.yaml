@@ -9,7 +9,7 @@
   name: "Marco Inacio"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/no_pic.jpg"
+  picture: "./pictures/inacio.png"
   url: "http://marcoinacio.com/"
 
 -
@@ -25,7 +25,6 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/no_pic.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705980E5"
-
 
 -
   name: "Deborah B. Stern"
@@ -45,5 +44,5 @@
   name: "Tatyana S. Zabanova"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/no_pic.jpg"
+  picture: "./pictures/zabanova.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450331A6"
