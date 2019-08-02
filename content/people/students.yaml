@@ -1,4 +1,11 @@
 -
+  name: "Felipe Hernandez Bisca"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/no_pic.jpg"
+  url: "http://lattes.cnpq.br/0098305106881719"
+
+-
   name: "Victor Coscrato"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
@@ -39,13 +46,6 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/vaz.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"
-
--
-  name: "Tatyana S. Zabanova"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/zabanova2.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450331A6"
 
 -
   name: "Gabriela Massoni"

@@ -26,7 +26,7 @@ authors,title,project,journal,url,year,complete
 "Fossaluza, V.; Izbicki, R.; da Silva, G.M.; Esteves, L.G.",Coherent hypothesis testing,foundations,The American Statistician,https://www.tandfonline.com/doi/abs/10.1080/00031305.2016.1237893,2017,0
 "Ceregatti, R. de C., Izbicki, R. Salasar, L.E.B.",WIKS: A general Bayesian nonparametric index for quantifying differences between two populations,hypothesis,Work in progress,https://arxiv.org/abs/1806.08307,2018,0
 "Inacio, M. H. de A.; Izbicki, R.; Salasar, L. E. B.",Comparing two populations using Bayesian Fourier series density estimation,bayesian,Communications in Statistics – Simulation and Computation,https://www.tandfonline.com/doi/abs/10.1080/03610918.2018.1484480?journalCode=lssp20,2018,0
-"Diniz, M. A.; Izbicki, R.; Lopes, D. L.; Salasar, L. E. B.",Comparing probabilistic predictive models applied to football,bayesian,Journal of the Operational Research Society,https://www.tandfonline.com/doi/abs/10.1080/01605682.2018.1457485,2018,0
+"Diniz, M. A.; Izbicki, R.; Lopes, D. L.; Salasar, L. E. B.",Comparing probabilistic predictive models applied to football,bayesian,Journal of the Operational Research Society,https://www.tandfonline.com/doi/abs/10.1080/01605682.2018.1457485,2019,0
 "Cisewski, J.; Kadane, J. B.; Schervish, M. J., Seidenfeld, T.; Stern, R. B.",Standards for Modest Bayesian Credences,foundations,"Philosophy of Science 85 (1), 53-78",https://www.journals.uchicago.edu/doi/10.1086/694836,2018,1
 "Esteves, L. G.; Izbicki, R.; Stern, R. B.; Stern, J. M.",Pragmatic hypotheses in the evolution of science,bayesian,Work in progress,https://arxiv.org/abs/1812.09998,2018,0
 "Zuanetti, D. A.; Müller, P.; Zhu, Y.; Yang, S.; Ji, Y.",Clustering distributions with the marginalized nested Dirichlet process,bayesian,"Biometrics 74 (2), 584-594",https://onlinelibrary.wiley.com/doi/full/10.1111/biom.12778,2018,1
@@ -36,4 +36,8 @@ authors,title,project,journal,url,year,complete
 "Ceregatti, R. de C., Izbicki, R. Salasar, L.E.B.",WIKS: A general Bayesian nonparametric index for quantifying differences between two populations,bayesian,Work in progress,https://arxiv.org/abs/1806.08307,2019,0
 "Zuanetti, D. A.; Müller, P.; Zhu, Y.; Yang, S.; Ji, Y.",Bayesian nonparametric clustering for large data sets,bayesian,"Statistics and Computing 29 (2), 203-215",https://link.springer.com/article/10.1007/s11222-018-9803-9,2019,1
 "Coscrato, V.; Esteves, L. G; Izbicki, R.; Stern, R. B.",Interpretable hypothesis tests,hypothesis,Work in progress,https://arxiv.org/abs/1904.06605,2019,0
-"Vaz, A. F., Izbicki, R. Stern, R.B.",Quantification under prior probability shift: the ratio estimator and its extensions,domain-shift,Journal of Machine Learning Research,https://arxiv.org/abs/1807.03929,2019,0
+"Vaz, A. F., Izbicki, R.; Stern, R.B.",Quantification under prior probability shift: the ratio estimator and its extensions,domain-shift,Journal of Machine Learning Research,https://arxiv.org/abs/1807.03929,2019,0
+"Botari, T.; Izbicki, R.; Carvalho, A. C. P. L.  F.",Local Interpretation Methods to Machine Learning Using the Domain of the Feature Space,interpretation,Work in progress,https://arxiv.org/abs/1907.13525,2019,
+"Coscrato, V., Inacio, M. H. de A., Izbicki, R.",The NN-Stacking: Feature weighted linear stacking through neural networks,interpretation,Work in progress,https://arxiv.org/abs/1906.09735,2019,
+"Stern, R. B., Kadane, J. B.",Indemnity for a lost chance,foundations,"Law, Probability and Risk",https://academic.oup.com/lpr/advance-article-abstract/doi/10.1093/lpr/mgz010/5521068,2019,
+"Fossaluza, V.; Esteves, L.G.; Pereira, C. A. de B.",Estimating multivariate discrete distributions using Bernstein copulas,nonparametric,Entropy,https://www.mdpi.com/1099-4300/20/3/194,2018,

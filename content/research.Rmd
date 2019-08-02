@@ -124,6 +124,22 @@ to solve many statistical and machine learning problems.
 
 ***
 
+# Interpretable Machine Learning
+
+In practice, predictive power is not enough.
+In most problems, solutions that are only useful if they are easy to interpret.
+
+<div class="toggle"><button>Selected papers</button>
+```{r echo=FALSE, message=FALSE}
+ print_paper_table("interpretation")
+```
+</div>
+
+<br>
+
+
+***
+
 # Foundations of statistics
 
 Understanding the foundations of statistics
