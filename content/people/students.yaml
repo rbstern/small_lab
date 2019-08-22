@@ -2,7 +2,7 @@
   name: "Felipe Hernandez Bisca"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/no_pic.jpg"
+  picture: "./pictures/bisca.jpg"
   url: "http://lattes.cnpq.br/0098305106881719"
 
 -
@@ -18,6 +18,13 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/inacio.png"
   url: "http://marcoinacio.com/"
+
+-
+  name: "Hans Montcho"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/hans.jpg"
+  url: "http://lattes.cnpq.br/3071157876961214"
 
 -
   name: "Victor C. Reis"
