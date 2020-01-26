@@ -44,25 +44,25 @@ print_member_table = function(path, num_cols = 3)
 
 # Faculty
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE,warning=FALSE}
 print_member_table("people/faculty.yaml")
 ```
 
 # Collaborators
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE,warning=FALSE}
 print_member_table("people/collaborators.yaml")
 ```
 
 # Students
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE,warning=FALSE}
 print_member_table("people/students.yaml")
 ```
 
 # Alumni
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE,warning=FALSE}
 print_member_table("people/alumni.yaml")
 ```
 
