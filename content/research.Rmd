@@ -7,7 +7,7 @@ title: "Research"
 ```{r echo=FALSE, message=FALSE}
 `%>%` = magrittr::`%>%`
 print_paper_table = function(topic)
-{
+{ 
   paper_table = read.csv("research/papers.csv") %>% 
     tibble::as_tibble() %>%
     dplyr::filter(project == topic) %>%
