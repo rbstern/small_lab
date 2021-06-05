@@ -16,7 +16,8 @@ print_member_table = function(path, num_cols = 3)
   member_table = yaml::read_yaml(path) %>% 
     do.call(rbind, .) %>% 
     as.data.frame() %>% 
-    tidyr::unnest() %>%
+    tidyr::unnest(cols = c(name, affiliation, 
+                           affiliation_link, picture, url)) %>%
     tibble::as_tibble() %>%
     dplyr::mutate(content = paste0("<center>",
                                    "<img border = '0' src = '",
@@ -65,5 +66,4 @@ print_member_table("people/students.yaml")
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 print_member_table("people/alumni.yaml")
 ```
-
 

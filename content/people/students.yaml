@@ -41,22 +41,8 @@
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705980E5"
 
 -
-  name: "Deborah B. Stern"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/stern2.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8846498A4"
-
--
   name: "Afonso F. Vaz"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/vaz.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"
-
--
-  name: "Gabriela Massoni"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/massoni.png"
-  url: "http://lattes.cnpq.br/0694571733841497"
