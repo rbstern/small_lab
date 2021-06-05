@@ -1,4 +1,4 @@
-baseurl = "https://www.small-lab.science"
+baseurl = "https://www.small-lab.science/"
 languageCode = "en-us"
 title = "Statistical Machine Learning Lab"
 theme = "blackburn"
