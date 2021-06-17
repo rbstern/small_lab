@@ -12,12 +12,6 @@
   picture: "./pictures/mateus_borges.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K2429222Y3"
 
--
-  name: "Marco Inacio"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/inacio.png"
-  url: "http://marcoinacio.com/"
 
 -
   name: "Hans Montcho"
@@ -40,9 +34,4 @@
   picture: "./pictures/shimizu.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705980E5"
 
--
-  name: "Afonso F. Vaz"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/vaz.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"
+
