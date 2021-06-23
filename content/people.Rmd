@@ -67,3 +67,4 @@ print_member_table("people/students.yaml")
 print_member_table("people/alumni.yaml")
 ```
 
+

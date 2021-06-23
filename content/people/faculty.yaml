@@ -1,4 +1,11 @@
 -
+  name: "Andressa Cerqueira"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/andressa.jpg"
+  url: "https://www.servidores.ufscar.br/acerqueira/"
+
+-
   name: "Luís Gustavo Esteves"
   affiliation: "MAE-IME-USP"
   affiliation_link: "https://www.ime.usp.br/mae"
@@ -19,6 +26,13 @@
   picture: "./pictures/michel.jpeg"
   url: "http://lattes.cnpq.br/9993502064983663"
 
+-
+  name: "Gustavo Henrique de Araujo Pereira"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/gustavo.jpeg"
+  url: "http://lattes.cnpq.br/4536501674241631"
+  
 -
   name: "Luis Ernesto B. Salasar"
   affiliation: "DEs-UFSCar"

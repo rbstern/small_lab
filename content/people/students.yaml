@@ -18,7 +18,7 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/lassance.jpeg"
   url: "http://lattes.cnpq.br/0144182126656286"
-  
+
 -
   name: "Hans Montcho"
   affiliation: "DEs-UFSCar"
@@ -39,10 +39,3 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/shimizu.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705980E5"
-
--
-  name: "Afonso F. Vaz"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/vaz.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"

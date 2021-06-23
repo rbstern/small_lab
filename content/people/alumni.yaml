@@ -19,27 +19,12 @@
   picture: "./pictures/poloniato.jpg"
   url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4449302H5"
 
-
 -
-  name: "Marcela Musetti"
+  name: "Marco Inacio"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/musetti.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8081707H4"
-
--
-  name: "Tatyana S. Zabanova"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/zabanova2.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450331A6"
-
--
-  name: "Deborah B. Stern"
-  affiliation: "DEs-UFSCar"
-  affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/stern2.jpg"
-  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8846498A4"
+  picture: "./pictures/inacio.png"
+  url: "http://marcoinacio.com/"
 
 -
   name: "Gabriela Massoni"
@@ -49,8 +34,29 @@
   url: "http://lattes.cnpq.br/0694571733841497"
 
 -
-  name: "Marco Inacio"
+  name: "Marcela Musetti"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/inacio.png"
-  url: "http://marcoinacio.com/"
+  picture: "./pictures/musetti.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8081707H4"
+
+-
+  name: "Deborah B. Stern"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/stern2.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8846498A4"
+
+-
+  name: "Afonso F. Vaz"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/vaz.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8153743U8"  
+  
+-
+  name: "Tatyana S. Zabanova"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/zabanova2.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4450331A6"
