@@ -1,4 +1,12 @@
 -
+  name: "Felipe Hernandez Bisca"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/bisca.jpg"
+  url: "http://lattes.cnpq.br/0098305106881719"
+
+
+-
   name: "Rafael Ceregatti"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
@@ -32,6 +40,14 @@
   affiliation_link: "http://www.des.ufscar.br/"
   picture: "./pictures/massoni.png"
   url: "http://lattes.cnpq.br/0694571733841497"
+
+-
+  name: "Hans Montcho"
+  affiliation: "DEs-UFSCar"
+  affiliation_link: "http://www.des.ufscar.br/"
+  picture: "./pictures/hans.jpg"
+  url: "http://lattes.cnpq.br/3071157876961214"
+
 
 -
   name: "Marcela Musetti"

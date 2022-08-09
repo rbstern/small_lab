@@ -1,9 +1,10 @@
 -
-  name: "Felipe Hernandez Bisca"
-  affiliation: "DEs-UFSCar"
+  name: "Luben Miguel Cruz Cabezas"
+  affiliation: "DF-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/bisca.jpg"
-  url: "http://lattes.cnpq.br/0098305106881719"
+  picture: "./pictures/mateus_borges.jpg"
+  url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K2429222Y3"
+
 
 -
   name: "Mateus Borges Comito"
@@ -16,15 +17,16 @@
   name: "Rodrigo Ferrari Lucas Lassance"
   affiliation: "DEs-UFSCar"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/lassance.jpeg"
+  picture: "./pictures/luben.jpeg"
   url: "http://lattes.cnpq.br/0144182126656286"
 
 -
-  name: "Hans Montcho"
-  affiliation: "DEs-UFSCar"
+  name: "Mateus Piovezan Otto"
+  affiliation: "PIPGEs-UFSCar/USP"
   affiliation_link: "http://www.des.ufscar.br/"
-  picture: "./pictures/hans.jpg"
-  url: "http://lattes.cnpq.br/3071157876961214"
+  picture: "./pictures/mateus_otto.jpg"
+  url: "https://bv.fapesp.br/pt/pesquisador/702069/mateus-piovezan-otto"
+
 
 -
   name: "Victor C. Reis"
